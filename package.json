@@ -1,0 +1,16 @@
+{
+    "name": "eslint-bug",
+    "private": true,
+    "license": "CC0-1.0",
+    "devDependencies": {},
+    "workspaces": [
+        "backend",
+        "common"
+    ],
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.15.1",
+        "@typescript-eslint/parser": "^4.15.1",
+        "eslint": "^7.20.0",
+        "typescript": "^4.1.5"
+    }
+}

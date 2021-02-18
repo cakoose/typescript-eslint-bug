@@ -1,0 +1,16 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "target": "ES2016",
+        "lib": ["ES2016"],
+        "composite": true,
+        "outDir": "dist/common",
+        "baseUrl": "src",
+        "rootDir": "src",
+        "paths": {
+            "common/*": ["./*"]
+        },
+        "tsBuildInfoFile": "dist/tsbuildinfo.json"
+    },
+    "exclude": ["dist"]
+}
